@@ -3,19 +3,19 @@ pipeline {
   stages {
     stage('Fluffy Build') {
       steps {
-        echo 'Fluffy Build'
+        echo "Fluffy Build"
       }
     }
 
     stage('Fluffy Test') {
       steps {
-        echo 'Fluffy Test'
+        echo "Fluffy Test"
       }
     }
 
     stage('Fluffy Deploy') {
       steps {
-        echo 'Fluffy Deploy'
+        echo "Fluffy Deploy"
       }
     }
 
